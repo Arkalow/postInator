@@ -18,8 +18,8 @@ $(document).ready(function() {
 			console.log(data)
 			$('#output').val(JSON.stringify(data))
 		})
-		.fail(function() {
-			alert("error");
+		.fail(function(data) {
+			$('#output').val(JSON.stringify(data))
 		})
 	}
 

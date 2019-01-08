@@ -7,9 +7,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<input class="input--medium" type="text" id="url"/><br />
-	<button class="input--medium" id="send">SEND</button>
-	<textarea class="input--medium" rows="20" id="input"></textarea><br />
-	<textarea class="input--medium" rows="20" id="output"></textarea>
+	<input class="input--large" type="text" id="url"/><br />
+	<button class="input--large" id="send">SEND</button>
+	<textarea class="input--large" rows="20" id="input"></textarea><br />
+	<textarea class="input--large" rows="20" id="output"></textarea>
 </body>
 </html>
